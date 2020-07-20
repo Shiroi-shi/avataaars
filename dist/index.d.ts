@@ -31,7 +31,7 @@ export default class AvatarComponent extends React.Component<Props> {
         optionContext: OptionContext;
     };
     componentDidMount(): void;
-    componentDidUpdate(nextProps: Props): void;
+    componentDidUpdate(prevProps: Props): void;
     render(): JSX.Element;
     private updateOptionContext;
 }
@@ -44,7 +44,7 @@ export declare class Piece extends React.Component<Props> {
         optionContext: OptionContext;
     };
     componentDidMount(): void;
-    componentDidUpdate(nextProps: Props): void;
+    componentDidUpdate(prevProps: Props): void;
     render(): JSX.Element;
     private updateOptionContext;
 }

@@ -43,8 +43,10 @@ export default class AvatarComponent extends React.Component<Props> {
     this.updateOptionContext(this.props)
   }
 
-  componentDidUpdate (nextProps: Props) {
-    this.updateOptionContext(nextProps)
+  componentDidUpdate (prevProps: Props) {
+    if (prevProps !== this.props) {
+      this.updateOptionContext(this.props)
+    }
   }
 
   render () {
@@ -79,8 +81,10 @@ export class Piece extends React.Component<Props> {
     this.updateOptionContext(this.props)
   }
 
-  componentDidUpdate (nextProps: Props) {
-    this.updateOptionContext(nextProps)
+  componentDidUpdate (prevProps: Props) {
+    if (prevProps !== this.props) {
+      this.updateOptionContext(this.props)
+    }
   }
 
   render () {

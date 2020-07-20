@@ -52,8 +52,10 @@ var Selector = /** @class */ (function (_super) {
             optionContext.setDefaultValue(option.key, defaultValue);
         }
     };
-    Selector.prototype.componentDidUpdate = function (nextProps) {
-        this.updateOptionValues(nextProps);
+    Selector.prototype.componentDidUpdate = function (prevProps) {
+        if (prevProps !== this.props) {
+            this.updateOptionValues(this.props);
+        }
     };
     Selector.prototype.componentWillUnmount = function () {
         this.optionContext.removeStateChangeListener(this.optionContextUpdate);

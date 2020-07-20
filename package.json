@@ -1,14 +1,17 @@
 {
-  "name": "avataaars-test",
-  "version": "1.2.1",
-  "description": "React component for avataaars ",
+  "name": "avataaars-updated",
+  "version": "1.2.3",
+  "description": "Avataaars updated for recent version of react (Forked fangpenlin/avataaars)",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "keywords": [
     "react",
     "avatar"
   ],
-  "repository": "git@github.com:fangpenlin/avataaars.git",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:Shiroi-shi/avataaars.git"
+  },
   "author": "Fang-Pen Lin <hello@fangpenlin.com>",
   "license": "MIT",
   "peerDependencies": {
@@ -35,5 +38,12 @@
       "parser": "typescript",
       "style": "import-sort-style-renke"
     }
+  },
+  "bugs": {
+    "url": "https://github.com/Shiroi-shi/avataaars/issues"
+  },
+  "homepage": "https://github.com/Shiroi-shi/avataaars#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
