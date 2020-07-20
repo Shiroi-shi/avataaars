@@ -5,7 +5,7 @@ var __extends = (this && this.__extends) || (function () {
             ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
             function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
         return extendStatics(d, b);
-    }
+    };
     return function (d, b) {
         extendStatics(d, b);
         function __() { this.constructor = d; }
@@ -36,10 +36,10 @@ var Selector = /** @class */ (function (_super) {
         get: function () {
             return this.context.optionContext;
         },
-        enumerable: true,
+        enumerable: false,
         configurable: true
     });
-    Selector.prototype.componentWillMount = function () {
+    Selector.prototype.componentDidMount = function () {
         var _a = this.props, option = _a.option, defaultOption = _a.defaultOption;
         var optionContext = this.optionContext;
         var defaultValue = (typeof defaultOption === 'string' ?
@@ -52,7 +52,7 @@ var Selector = /** @class */ (function (_super) {
             optionContext.setDefaultValue(option.key, defaultValue);
         }
     };
-    Selector.prototype.componentWillUpdate = function (nextProps) {
+    Selector.prototype.componentDidUpdate = function (nextProps) {
         this.updateOptionValues(nextProps);
     };
     Selector.prototype.componentWillUnmount = function () {

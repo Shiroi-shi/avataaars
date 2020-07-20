@@ -20,6 +20,7 @@ export interface Props {
     skinColor?: string;
     pieceType?: string;
     pieceSize?: string;
+    viewBox?: string;
 }
 export default class AvatarComponent extends React.Component<Props> {
     static childContextTypes: {
@@ -29,8 +30,8 @@ export default class AvatarComponent extends React.Component<Props> {
     getChildContext(): {
         optionContext: OptionContext;
     };
-    componentWillMount(): void;
-    componentWillReceiveProps(nextProps: Props): void;
+    componentDidMount(): void;
+    componentDidUpdate(nextProps: Props): void;
     render(): JSX.Element;
     private updateOptionContext;
 }
@@ -42,8 +43,8 @@ export declare class Piece extends React.Component<Props> {
     getChildContext(): {
         optionContext: OptionContext;
     };
-    componentWillMount(): void;
-    componentWillReceiveProps(nextProps: Props): void;
+    componentDidMount(): void;
+    componentDidUpdate(nextProps: Props): void;
     render(): JSX.Element;
     private updateOptionContext;
 }
