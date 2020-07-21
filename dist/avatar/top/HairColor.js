@@ -37,8 +37,10 @@ var Auburn = makeColor('Auburn', '#A55728');
 var Black = makeColor('Black', '#2C1B18');
 var Blonde = makeColor('Blonde', '#B58143');
 var BlondeGolden = makeColor('BlondeGolden', '#D6B370');
+var Blue = makeColor('Blue', '#65C9FF');
 var Brown = makeColor('Brown', '#724133');
 var BrownDark = makeColor('BrownDark', '#4A312C');
+var Green = makeColor('Green', '#51e46a');
 var PastelPink = makeColor('PastelPink', '#F59797');
 var Platinum = makeColor('Platinum', '#ECDCBF');
 var Red = makeColor('Red', '#C93305');
@@ -54,8 +56,10 @@ var HairColor = /** @class */ (function (_super) {
             React.createElement(Black, { maskID: this.props.maskID }),
             React.createElement(Blonde, { maskID: this.props.maskID }),
             React.createElement(BlondeGolden, { maskID: this.props.maskID }),
+            React.createElement(Blue, { maskID: this.props.maskID }),
             React.createElement(Brown, { maskID: this.props.maskID }),
             React.createElement(BrownDark, { maskID: this.props.maskID }),
+            React.createElement(Green, { maskID: this.props.maskID }),
             React.createElement(PastelPink, { maskID: this.props.maskID }),
             React.createElement(Platinum, { maskID: this.props.maskID }),
             React.createElement(Red, { maskID: this.props.maskID }),
