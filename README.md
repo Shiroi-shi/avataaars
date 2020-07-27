@@ -1,5 +1,8 @@
 # React component for Avataaars
 
+## Updated version
+This versions is updated to use componentDidMount and componentDidUpdate and will probably add a few other features in the future such as more hair colors and style.
+
 The core React component for [Avataaars Generator](https://getavataaars.com/) developed by [Fang-Pen Lin](https://twitter.com/fangpenlin), based on the Sketch library [Avataaars](https://avataaars.com/) designed by [Pablo Stanley](https://twitter.com/pablostanley). 
 
 <p align="center"><img src='avataaars-example.png?raw=true' style='width: 300px; height: 300px;' /></p>
