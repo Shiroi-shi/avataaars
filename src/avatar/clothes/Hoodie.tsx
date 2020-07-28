@@ -24,7 +24,7 @@ export default class Hoodie extends React.Component {
         </mask>
         <use
           id='Hoodie'
-          fill='#B7C1DB'
+          fill='#16161A'
           fillRule='evenodd'
           xlinkHref={'#' + path1}
         />

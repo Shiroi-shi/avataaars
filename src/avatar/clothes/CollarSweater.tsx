@@ -26,7 +26,7 @@ export default class CollarSweater extends React.Component {
         </mask>
         <use
           id='Clothes'
-          fill='#E6E6E6'
+          fill='#16161A'
           fillRule='evenodd'
           xlinkHref={'#' + path1}
         />

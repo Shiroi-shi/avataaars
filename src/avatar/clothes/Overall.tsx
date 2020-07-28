@@ -24,7 +24,7 @@ export default class Overall extends React.Component {
         </mask>
         <use
           id='Overall'
-          fill='#B7C1DB'
+          fill='#16161A'
           fillRule='evenodd'
           xlinkHref={'#' + path1}
         />

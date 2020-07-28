@@ -87,7 +87,7 @@ export default class Avatar extends React.Component<Props> {
                   <mask id='mask-6' fill='white'>
                     <use xlinkHref='#path-5' />
                   </mask>
-                  <use fill='#D0C6AC' xlinkHref='#path-5' />
+                  <use fill='#16161A' xlinkHref='#path-5' />
                   <Skin maskID='mask-6' />
                   <path
                     d='M156,79 L156,102 C156,132.927946 130.927946,158 100,158 C69.072054,158 44,132.927946 44,102 L44,79 L44,94 C44,124.927946 69.072054,150 100,150 C130.927946,150 156,124.927946 156,94 L156,79 Z'

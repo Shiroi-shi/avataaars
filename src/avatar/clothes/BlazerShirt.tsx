@@ -23,7 +23,7 @@ export default class BlazerShirt extends React.Component {
           <mask id={mask1} fill='white'>
             <use xlinkHref={'#' + path1} />
           </mask>
-          <use id='Clothes' fill='#E6E6E6' xlinkHref={'#' + path1} />
+          <use id='Clothes' fill='#16161A' xlinkHref={'#' + path1} />
           <g id='Color/Palette/Black' mask={`url(#${mask1})`} fill='#262E33'>
             <g transform='translate(-32.000000, -29.000000)' id='🖍Color'>
               <rect x='0' y='0' width='264' height='110' />
