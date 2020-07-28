@@ -31,7 +31,7 @@ var BlazerShirt = /** @class */ (function (_super) {
             React.createElement("g", { id: 'Shirt', transform: 'translate(32.000000, 29.000000)' },
                 React.createElement("mask", { id: mask1, fill: 'white' },
                     React.createElement("use", { xlinkHref: '#' + path1 })),
-                React.createElement("use", { id: 'Clothes', fill: '#E6E6E6', xlinkHref: '#' + path1 }),
+                React.createElement("use", { id: 'Clothes', fill: '#16161A', xlinkHref: '#' + path1 }),
                 React.createElement("g", { id: 'Color/Palette/Black', mask: "url(#" + mask1 + ")", fill: '#262E33' },
                     React.createElement("g", { transform: 'translate(-32.000000, -29.000000)', id: '\uD83D\uDD8DColor' },
                         React.createElement("rect", { x: '0', y: '0', width: '264', height: '110' }))),

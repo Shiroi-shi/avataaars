@@ -30,7 +30,7 @@ var BlazerSweater = /** @class */ (function (_super) {
                 React.createElement("path", { d: 'M105.192402,29.0517235 L104,29.0517235 L104,29.0517235 C64.235498,29.0517235 32,61.2872215 32,101.051724 L32,110 L232,110 L232,101.051724 C232,61.2872215 199.764502,29.0517235 160,29.0517235 L160,29.0517235 L158.807598,29.0517235 C158.934638,30.0353144 159,31.0364513 159,32.0517235 C159,45.8588423 146.911688,57.0517235 132,57.0517235 C117.088312,57.0517235 105,45.8588423 105,32.0517235 C105,31.0364513 105.065362,30.0353144 105.192402,29.0517235 Z', id: path1 })),
             React.createElement("mask", { id: mask1, fill: 'white' },
                 React.createElement("use", { xlinkHref: '#' + path1 })),
-            React.createElement("use", { id: 'Clothes', fill: '#E6E6E6', fillRule: 'evenodd', xlinkHref: '#' + path1 }),
+            React.createElement("use", { id: 'Clothes', fill: '#16161A', fillRule: 'evenodd', xlinkHref: '#' + path1 }),
             React.createElement("g", { id: 'Color/Palette/Black', mask: "url(#" + mask1 + ")", fillRule: 'evenodd', fill: '#262E33' },
                 React.createElement("rect", { id: '\uD83D\uDD8DColor', x: '0', y: '0', width: '264', height: '110' })),
             React.createElement("g", { id: 'Blazer', strokeWidth: '1', fillRule: 'evenodd', transform: 'translate(32.000000, 28.000000)' },
