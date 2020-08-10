@@ -44,7 +44,7 @@ var LongHairBigHair = /** @class */ (function (_super) {
                     React.createElement("g", { id: 'Hair', strokeWidth: '1', fill: 'none', fillRule: 'evenodd', transform: 'translate(16.000000, 13.000000)' },
                         React.createElement("mask", { id: mask3, fill: 'white' },
                             React.createElement("use", { xlinkHref: '#' + path2 })),
-                        React.createElement("use", { fill: '#314756', xlinkHref: '#' + path2 }),
+                        React.createElement("use", { xlinkHref: '#' + path2 }),
                         React.createElement(HairColor_1.default, { maskID: mask3 })),
                     React.createElement("g", { id: 'Shadow', strokeWidth: '1', fill: 'none', fillRule: 'evenodd', transform: 'translate(16.000000, 13.000000)' },
                         React.createElement("mask", { id: mask1, fill: 'white' },

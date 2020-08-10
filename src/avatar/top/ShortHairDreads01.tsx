@@ -44,7 +44,6 @@ export default class ShortHairDreads01 extends React.Component {
               </mask>
               <use
                 id='Dreads-With-Cut'
-                fill='#2E3257'
                 xlinkHref={'#' + path3}
               />
               <HairColor maskID={mask1} />

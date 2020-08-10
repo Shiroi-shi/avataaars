@@ -54,7 +54,7 @@ var Avatar = /** @class */ (function (_super) {
                             React.createElement("g", { id: 'Body', transform: 'translate(32.000000, 36.000000)' },
                                 React.createElement("mask", { id: 'mask-6', fill: 'white' },
                                     React.createElement("use", { xlinkHref: '#path-5' })),
-                                React.createElement("use", { fill: '#16161A', xlinkHref: '#path-5' }),
+                                React.createElement("use", { xlinkHref: '#path-5' }),
                                 React.createElement(Skin_1.default, { maskID: 'mask-6' }),
                                 React.createElement("path", { d: 'M156,79 L156,102 C156,132.927946 130.927946,158 100,158 C69.072054,158 44,132.927946 44,102 L44,79 L44,94 C44,124.927946 69.072054,150 100,150 C130.927946,150 156,124.927946 156,94 L156,79 Z', id: 'Neck-Shadow', fillOpacity: '0.100000001', fill: '#000000', mask: 'url(#mask-6)' })),
                             React.createElement(clothes_1.default, null),

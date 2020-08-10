@@ -44,7 +44,7 @@ var ShortHairSides = /** @class */ (function (_super) {
                     React.createElement("g", { id: 'Hair', strokeWidth: '1', fillRule: 'evenodd', transform: 'translate(70.000000, 74.000000)' },
                         React.createElement("mask", { id: mask1, fill: 'white' },
                             React.createElement("use", { xlinkHref: '#' + path3 })),
-                        React.createElement("use", { id: 'Sides', fill: '#9E7A7A', xlinkHref: '#' + path3 }),
+                        React.createElement("use", { id: 'Sides', xlinkHref: '#' + path3 }),
                         React.createElement(HairColor_1.default, { maskID: mask1 })),
                     this.props.children))));
     };

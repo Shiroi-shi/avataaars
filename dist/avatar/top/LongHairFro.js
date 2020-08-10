@@ -44,7 +44,7 @@ var LongHairFro = /** @class */ (function (_super) {
                     React.createElement("g", { id: 'Hair', strokeWidth: '1', fill: 'none', fillRule: 'evenodd', transform: 'translate(17.000000, 0.000000)' },
                         React.createElement("mask", { id: mask2, fill: 'white' },
                             React.createElement("use", { xlinkHref: '#' + path2 })),
-                        React.createElement("use", { fill: '#314756', xlinkHref: '#' + path2 }),
+                        React.createElement("use", { fill: 'none', xlinkHref: '#' + path2 }),
                         React.createElement(HairColor_1.default, { maskID: mask2 })),
                     React.createElement(facialHair_1.default, null),
                     this.props.children))));

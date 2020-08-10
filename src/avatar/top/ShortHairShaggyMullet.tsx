@@ -40,7 +40,6 @@ export default class ShortHairShaggyMullet extends React.Component {
             <use
               id='Hair'
               stroke='none'
-              fill='#1D2633'
               fillRule='evenodd'
               xlinkHref={'#' + path2}
             />

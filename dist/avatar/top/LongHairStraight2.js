@@ -43,7 +43,7 @@ var LongHairStraight2 = /** @class */ (function (_super) {
                     React.createElement("g", { id: 'Hair', strokeWidth: '1', fill: 'none', fillRule: 'evenodd', transform: 'translate(40.000000, 15.000000)' },
                         React.createElement("mask", { id: mask2, fill: 'white' },
                             React.createElement("use", { xlinkHref: '#' + path2 })),
-                        React.createElement("use", { fill: '#272C2E', xlinkHref: '#' + path2 }),
+                        React.createElement("use", { xlinkHref: '#' + path2 }),
                         React.createElement(HairColor_1.default, { maskID: mask2 })),
                     React.createElement("path", { d: 'M67,113 C84.8226408,80.6646674 137.535357,80.6069148 154.429684,64.2083647 C165.207546,72.6982916 182.891727,79.2665518 188.963018,97.8687161 C182.891727,76.423995 165.207546,66.5601054 154.429684,56.777113 C137.535357,75.6732583 84.8226408,75.7398069 67,113 Z', id: 'Shadow', fillOpacity: '0.16', fill: '#000000', fillRule: 'evenodd' }),
                     React.createElement(facialHair_1.default, null),

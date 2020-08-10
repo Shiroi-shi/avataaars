@@ -3,6 +3,8 @@
 .DS_Store
 .git
 .hg
+.idea
+.vscode
 .npmrc
 .lock-wscript
 .svn
@@ -11,3 +13,7 @@ config.gypi
 CVS
 npm-debug.log
 avataaars-example.png
+src
+.prettierrc
+.tsconfig.json
+tslint.json

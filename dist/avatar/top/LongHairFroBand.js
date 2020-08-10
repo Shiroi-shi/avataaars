@@ -40,7 +40,7 @@ var LongHairFroBand = /** @class */ (function (_super) {
                 React.createElement("g", { transform: 'translate(-1.000000, 0.000000)' },
                     React.createElement("mask", { id: mask2, fill: 'white' },
                         React.createElement("use", { xlinkHref: '#' + path2 })),
-                    React.createElement("use", { id: 'Hair', stroke: 'none', fill: '#314756', fillRule: 'evenodd', xlinkHref: '#' + path2 }),
+                    React.createElement("use", { id: 'Hair', stroke: 'none', fillRule: 'evenodd', xlinkHref: '#' + path2 }),
                     React.createElement(HairColor_1.default, { maskID: mask2 }),
                     React.createElement("path", { d: 'M76.6313898,98.975 C76.2155465,96.423245 76,93.8109442 76,91.1521739 C76,62.3493236 101.295912,39 132.5,39 C163.704088,39 189,62.3493236 189,91.1521739 C189,93.8109442 188.784453,96.423245 188.36861,98.975 C184.279562,73.883217 160.823662,54.6456522 132.5,54.6456522 C104.176338,54.6456522 80.7204382,73.883217 76.6313898,98.975 Z', id: 'Band', stroke: 'none', fill: '#92D9FF', fillRule: 'evenodd' }),
                     React.createElement(facialHair_1.default, null),

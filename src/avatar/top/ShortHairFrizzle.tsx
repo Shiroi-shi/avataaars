@@ -61,7 +61,6 @@ export default class ShortHairFrizzle extends React.Component {
             <use
               id='Hair-Maks'
               stroke='none'
-              fill='#252E32'
               fillRule='evenodd'
               xlinkHref={'#' + path1}
             />

@@ -36,7 +36,7 @@ export default class LongHairBob extends React.Component {
               <mask id={mask2} fill='white'>
                 <use xlinkHref={'#' + path2} />
               </mask>
-              <use id='Combined-Shape' fill='#E6E6E6' xlinkHref={'#' + path2} />
+              <use id='Combined-Shape' xlinkHref={'#' + path2} />
               <HairColor maskID={mask2} />
             </g>
             <FacialHair />

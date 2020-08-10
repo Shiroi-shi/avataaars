@@ -62,7 +62,6 @@ export default class ShortHairShortFlat extends React.Component {
             <use
               id='Short-Hair'
               stroke='none'
-              fill='#1F3140'
               fillRule='evenodd'
               xlinkHref={'#' + path1}
             />

@@ -42,7 +42,7 @@ export default class ShortHairSides extends React.Component {
               <mask id={mask1} fill='white'>
                 <use xlinkHref={'#' + path3} />
               </mask>
-              <use id='Sides' fill='#9E7A7A' xlinkHref={'#' + path3} />
+              <use id='Sides' xlinkHref={'#' + path3} />
               <HairColor maskID={mask1} />
             </g>
             {this.props.children}

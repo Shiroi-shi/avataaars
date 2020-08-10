@@ -48,7 +48,7 @@ var ShortHairFrizzle = /** @class */ (function (_super) {
                     React.createElement(facialHair_1.default, null),
                     React.createElement("mask", { id: mask1, fill: 'white' },
                         React.createElement("use", { xlinkHref: '#' + path1 })),
-                    React.createElement("use", { id: 'Hair-Maks', stroke: 'none', fill: '#252E32', fillRule: 'evenodd', xlinkHref: '#' + path1 }),
+                    React.createElement("use", { id: 'Hair-Maks', stroke: 'none', fillRule: 'evenodd', xlinkHref: '#' + path1 }),
                     React.createElement(HairColor_1.default, { maskID: mask1 }),
                     this.props.children))));
     };

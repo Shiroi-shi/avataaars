@@ -42,7 +42,7 @@ export default class LongHairStraight2 extends React.Component {
               <mask id={mask2} fill='white'>
                 <use xlinkHref={'#' + path2} />
               </mask>
-              <use fill='#272C2E' xlinkHref={'#' + path2} />
+              <use xlinkHref={'#' + path2} />
               <HairColor maskID={mask2} />
             </g>
             <path

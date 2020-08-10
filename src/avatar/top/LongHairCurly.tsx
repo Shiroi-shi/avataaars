@@ -44,7 +44,7 @@ export default class LongHairCurly extends React.Component {
               <mask id={mask2} fill='white'>
                 <use xlinkHref={'#' + path2} />
               </mask>
-              <use id='Curly!' fill='#314756' xlinkHref={'#' + path2} />
+              <use id='Curly!' xlinkHref={'#' + path2} />
               <HairColor maskID={mask2} />
             </g>
             <FacialHair />

@@ -34,7 +34,6 @@ export default class LongHairFroBand extends React.Component {
             <use
               id='Hair'
               stroke='none'
-              fill='#314756'
               fillRule='evenodd'
               xlinkHref={'#' + path2}
             />

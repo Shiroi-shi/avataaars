@@ -42,7 +42,7 @@ var LongHairMiaWallace = /** @class */ (function (_super) {
                     React.createElement("g", { id: 'Hair', strokeWidth: '1', fill: 'none', fillRule: 'evenodd', transform: 'translate(40.000000, 19.000000)' },
                         React.createElement("mask", { id: mask2, fill: 'white' },
                             React.createElement("use", { xlinkHref: '#' + path2 })),
-                        React.createElement("use", { id: 'Combined-Shape', fill: '#E6E6E6', xlinkHref: '#' + path2 }),
+                        React.createElement("use", { id: 'Combined-Shape', xlinkHref: '#' + path2 }),
                         React.createElement(HairColor_1.default, { maskID: mask2 })),
                     React.createElement(facialHair_1.default, null),
                     this.props.children))));
